@@ -1,0 +1,212 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-image: url("/img/bg_kp.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topnav {
+    background-color: #080808;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.logongi{
+    margin-right: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: #b3b3b3;
+    transition: 0.5s;
+}
+
+.topnav a.active {
+    color: #18c1c4;
+}
+
+#foto .carousel-item {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: enable;
+  }
+
+h4{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+}
+
+h5{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+}
+
+h1{
+    padding: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.partner{
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cardtitle{
+    padding: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.cardbody{
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #120661;
+}
+.card{
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #120661;
+    border: none;
+}
+.card-title{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.card-text{
+    color:white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.card-group{
+    border: none;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.card a{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.card a:hover{
+    color: #a3a3a3;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.card1 .card-body{
+    background-color: #120661;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.card1{
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.flex1{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.flex2{
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.flexp1 p.p1{
+    border-style: solid;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    border-color:#8c8c8c;
+    box-shadow: 0px 0px 15px #8c8c8c;
+}
+
+ /* ================================================
+    login
+    ================================================ */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  } 
